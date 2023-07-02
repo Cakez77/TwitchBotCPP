@@ -1,0 +1,14 @@
+
+<body style="height: 100%%; border: 0; margin: 0; overflow: hidden;">
+  <video autoplay src="%s" id="myVideo" width="100%%" height="100%%">
+    video not supported
+  </video>
+
+
+  <script type='text/javascript'>
+      document.getElementById('myVideo').addEventListener('ended',myHandler,false);
+      function myHandler(e) {
+        window.location.reload();
+      }
+  </script>
+</body>

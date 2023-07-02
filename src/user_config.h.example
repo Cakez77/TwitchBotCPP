@@ -1,0 +1,22 @@
+global s_command commands[] =
+{
+  {"!steam", "Wishlist at: https://store.steampowered.com/app/2245620/Cakez_TD (Work in progress)"},
+  {"!steam2", "@%s Wishlist at: https://store.steampowered.com/app/2245620/Cakez_TD (Work in progress)"},
+  {"!youtube", "@%s https://www.youtube.com/cakez77"},
+  {"!yt", "@%s https://www.youtube.com/cakez77"},
+  {"!discord", "@%s https://discord.gg/jVSX7YmEHj"},
+  {"!patreon", "@%s https://www.patreon.com/Cakez77"},
+};
+
+global constexpr float periodicMessageFrequency = 600.0f;
+global int periodicMessageIdx = 0;
+global char* periodicMessages[] =
+{
+  "Join our Community on Discord cakez7Sure https://discord.gg/jVSX7YmEHj",
+  "Want to Support me? "
+    "cakez7L The best way is Ko-fi: https://ko-fi.com/cakez77 Thank you very much cakez7Rub",
+  "I'm creating a PowerUpL Tower Defense PowerUpR game with RPG elements: "
+    "https://store.steampowered.com/app/2245620/Cakez_TD",
+};
+
+global constexpr int c_min_bits_for_notification = 1;
